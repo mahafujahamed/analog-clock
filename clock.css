@@ -1,10 +1,22 @@
+.header-text{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
 .clock {
     --_ow: clamp(5rem, 60vw, 40rem);
     --_w: 88cqi;
     --_r: calc((var(--_w) - var(--_sz)) / 2);
     --_sz: 12cqi;
   
-    background: #222;
+    /* background: #222; */
+    /* background-image: url(images/Google.jpg); */
+    box-shadow: 50px;
     block-size: var(--_ow);
     border-radius: 24%;
     container-type: inline-size;
@@ -17,7 +29,8 @@
   
   .clock-face {
     aspect-ratio: 1;
-    background: var(--_bgc, #FFF);
+    /* background-image: url(images/Google.jpg); */
+    background: var(--_bgc, #59c5a8);
     border-radius: 50%;
     block-size: var(--_w);
     font-size: 6cqi;
